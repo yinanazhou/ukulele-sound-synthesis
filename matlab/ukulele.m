@@ -41,9 +41,11 @@ if opt == 1
     end
     
 elseif opt == 2
-    midi = input('\nPlease enter midi file name;\nFormat''xxx.mid'':');
+    midi = input('\nPlease enter midi filename;\nFormat''xxx.mid'':');
     y = playmidi(fs, midi, x, model);
 end
+
+fname = input('\nPlease enter the name of the file to be saved;\nFormat''xxx.wav'':');
 
 % STFT spectrogram
 % y = audioread('4th_real.wav');
@@ -55,6 +57,6 @@ if max(abs(y)) > 0.95
     y = y./max(abs(y)+0.1);
     disp('Scaled waveform');
 end
-audiowrite('mary_dw.wav', y, fs)
+audiowrite(fname, y, fs)
 sound(y, fs);
 
