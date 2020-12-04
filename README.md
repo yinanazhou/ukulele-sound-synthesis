@@ -4,6 +4,7 @@
 This project synthesizes sound using digital waveguide model and Karplus-Strong algorithm.
 
 - ukulele.m calls playDW.m, playDW.m and playmidi.m. It has two features:
+
   1. Generate sample note;
   2. Play MIDI file.  
   
