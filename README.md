@@ -7,7 +7,7 @@ This project synthesizes sound using digital waveguide model and Karplus-Strong 
   1. Generate sample note;
   2. Play MIDI file.  
   
-&emsp;&emsp;The user can choose desired fundamental frequency， specify model, change MIDI files, and designate the name of file to be saved.
+&emsp;&emsp;The user can choose desired fundamental frequency，specify model, change MIDI files, and designate the name of file to be saved.
 When inputting filenames, quotation marks cannot be omitted.
 
 - playDW.m is a basic implementation of digital waveguide model. The parameters are sampling rate, desired fundamental frequency, samples to count, body-to-air response of the string instrument, and velocity.
