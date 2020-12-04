@@ -6,6 +6,7 @@ This project synthesizes sound using digital waveguide model and Karplus-Strong 
 - ukulele.m calls playDW.m, playDW.m and playmidi.m. It has two features:
   1. Generate sample note;
   2. Play MIDI file.  
+  
 &emsp;&emsp;The user can choose desired fundamental frequency， specify model, change MIDI files, and designate the name of file to be saved.
 When inputting filenames, quotation marks cannot be omitted.
 
@@ -19,4 +20,4 @@ When inputting filenames, quotation marks cannot be omitted.
 
 - spec.m is a function to draw spectrograms of the signal.
 
-- BR.m is the recorded body-to-air response of a concert ukulele.
+- BR.wav is the recorded body-to-air response of a concert ukulele.
