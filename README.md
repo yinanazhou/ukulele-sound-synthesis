@@ -22,3 +22,17 @@ When inputting filenames, quotation marks cannot be omitted.
 - spec.m is a function to draw spectrograms of the signal.
 
 - BR.wav is the recorded body-to-air response of a concert ukulele.
+
+#### Audio Sample
+
+Filename | Description
+ :-- | :--
+ 4th_0.5_dw.wav | 4th string generated using digital waveguide models, read location: 0.5
+ 4th_0_dw.wav | 4th string generated using digital waveguide models, read location: 0
+ 4th_1_dw.wav | 4th string generated using digital waveguide models, read location: 1
+ 4th_dw.wav | 4th string generated using digital waveguide models, default read location: 0.8
+ 4th_ks.wav | 4th string generated using Karplus-Strong algorithm
+ AMEAME_dw.wav | Nursery rhymes -- ame ame, generated using digital waveguide models
+ AMEAME_ks.wav | Nursery rhymes -- ame ame, generated using Karplus-Strong algorithm
+ mary_dw.wav | Mary Has a Little Lamb, generated using digital waveguide models
+ mary_ks.wav | Mary Has a Little Lamb, generated using Karplus-Strong algorithm
